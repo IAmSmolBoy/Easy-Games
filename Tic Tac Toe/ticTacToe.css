@@ -1,0 +1,37 @@
+body {
+    background: black;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.rows button {
+    width: 15vw;
+    height: 15vh;
+    color: white;
+    background: white;
+    font-size: 15vh;
+    outline: 0;
+}
+.column {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+.rows {
+    height: 15vh;
+}
+#reset {
+    width: max-content;
+    margin-top: 5vh;
+    float: right;
+}
+#resetWin {
+    margin: 0 auto;
+}
+#winDiv {
+    display: none;
+    margin: auto;
+    color: white;
+}

@@ -1,0 +1,27 @@
+#navbar {
+    background: white;
+    position: absolute;
+    width: 100vw;
+}
+#navList {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: max-content;
+}
+.navLi {
+    padding: 1vh 0;
+    transition: .25s linear;
+}
+.navLinks {
+    text-decoration: none;
+    color: black;
+    padding: 1vh 1vw;
+}
+.navLi:hover{
+    background: gray;
+}
+.navLinks:hover {
+    color: white;
+}
